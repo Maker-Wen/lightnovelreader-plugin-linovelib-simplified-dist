@@ -1,12 +1,12 @@
 id = "io.nightfish.lightnovelreader.plugin.linovelib_simplified"
-name = "Linovelib"
+name = "Linovelib 简体"
 author = "MakerWen"
 categories = ["novel"]
-summary = "Linovelib 数据源"
+summary = "Linovelib 简体数据源"
 is_nsfw = false
 
 description = """
-Linovelib 数据源，基于 j955229/LightNovelReaderPlugin-linovelib。
+Linovelib 简体数据源，基于 j955229/LightNovelReaderPlugin-linovelib。
 
 支持探索、排行榜、搜索、章节加载、文内插图、离线缓存和 EPUB 导出。
 
@@ -21,14 +21,14 @@ copyright = "Apache-2.0; based on j955229/LightNovelReaderPlugin-linovelib"
 version_name = "1.1.2"
 version_code = 25
 changelog = """
-1. 基于上游 1.1.2 实现 Linovelib 数据源。
+1. 基于上游 1.1.2 实现 Linovelib 简体数据源。
 2. 支持文内插图、离线缓存和 EPUB 导出。
 3. 使用独立 applicationId 和数据源 id，可与 Linovelib TW 并存。
 """
 
 [release.download]
 file = "plugin.lnrp"
-output_file = "Linovelib-1.1.2.apk.lnrp"
+output_file = "Linovelib-Simplified-Standalone-1.1.2.apk.lnrp"
 sha1 = "e4351ef958eedf637facbabd5cfeef4d5fd200df"
 
 [privacy]
@@ -41,4 +41,3 @@ repository = "https://github.com/Maker-Wen/LightNovelReaderPlugin-linovelib"
 
 [assets]
 icon = "icon.png"
-banner = "banner.png"

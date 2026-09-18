@@ -7,4 +7,4 @@
 - 上游基础：https://github.com/j955229/LightNovelReaderPlugin-linovelib
 - License：Apache-2.0
 
-本仓库只存放市场分发包文件：`plugin.toml`、`plugin.lnrp`、`icon.png`、`banner.png`。
+本仓库只存放市场分发包文件：`plugin.toml`、`plugin.lnrp`、`icon.png`。
