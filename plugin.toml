@@ -1,0 +1,44 @@
+id = "io.nightfish.lightnovelreader.plugin.linovelib_simplified"
+name = "Linovelib简体"
+author = "MakerWen"
+categories = ["novel"]
+summary = "Linovelib 简体输出数据源"
+is_nsfw = false
+
+description = """
+Linovelib 简体输出数据源，基于 j955229/LightNovelReaderPlugin-linovelib。
+
+支持探索、排行榜、搜索、章节加载、文内插图、离线缓存和 EPUB 导出，正文默认输出简体中文。
+
+本插件使用独立的 applicationId 和数据源 id，可以与上游 Linovelib TW 插件同时安装。文内插图、图片顺序、缓存和章节处理逻辑保持上游实现不变。
+"""
+
+target_api = 2
+languages = ["zh-CN"]
+copyright = "Apache-2.0; based on j955229/LightNovelReaderPlugin-linovelib"
+
+[release]
+version_name = "1.1.2-simplified"
+version_code = 25
+changelog = """
+1. 基于上游 1.1.2 实现 Linovelib 简体输出。
+2. 支持文内插图、离线缓存和 EPUB 导出。
+3. 使用独立 applicationId 和数据源 id，可与 Linovelib TW 并存。
+"""
+
+[release.download]
+file = "plugin.lnrp"
+output_file = "Linovelib-Simplified-Standalone-1.1.2.apk.lnrp"
+sha1 = "d226cd3365d2911b3ebec6f153049e5ff3c863e6"
+
+[privacy]
+data_keys = ["network_access", "local_storage"]
+notes = "访问 Linovelib 获取书籍、章节与插图，并在本地缓存章节和图片。插件不会上传阅读内容，也不会读取宿主书架或阅读记录。"
+
+[links]
+homepage = "https://github.com/Maker-Wen/LightNovelReaderPlugin-linovelib"
+repository = "https://github.com/Maker-Wen/LightNovelReaderPlugin-linovelib"
+
+[assets]
+icon = "icon.png"
+banner = "banner.png"
